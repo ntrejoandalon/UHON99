@@ -14,6 +14,7 @@ import {
   Outline,
   Span,
 } from "./styles";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [visible, setVisibility] = useState(false);
@@ -22,33 +23,33 @@ const Header = () => {
     setVisibility(!visible);
   };
 
+  const navigate = useNavigate()
+
+  const onClickHandler = (value: string) => {
+    navigate(`/${value}`)
+  }
+  
   const MenuItem = () => {
-    const scrollTo = (id: string) => {
-      const element = document.getElementById(id) as HTMLDivElement;
-      element.scrollIntoView({
-        behavior: "smooth",
-      });
-      setVisibility(false);
-    };
+
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{"About"}</Span>
+        <CustomNavLinkSmall onClick={() => onClickHandler("contract-work")}>
+          <Span>{"Contract Work"}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{"Mission"}</Span>
+        <CustomNavLinkSmall onClick={() => onClickHandler("tasks")}>
+          <Span>{"Tasks"}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
+        {/* <CustomNavLinkSmall onClick={() => scrollTo("product")}>
           <Span>{"Product"}</Span>
-        </CustomNavLinkSmall>
+        </CustomNavLinkSmall> */}
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          onClick={() => onClickHandler("recommendation")}
         >
           <Span>
-            <Button>{"Contact"}</Button>
+            <Button>{"Recommendation"}</Button>
           </Span>
-        </CustomNavLinkSmall>
+        </CustomNavLinkSmall> 
       </>
     );
   };
