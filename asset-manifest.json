@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/UHON99/static/css/main.f855e6bc.css",
+    "main.js": "/UHON99/static/js/main.ff1d7638.js",
+    "static/js/453.ed3810f9.chunk.js": "/UHON99/static/js/453.ed3810f9.chunk.js",
+    "static/media/logo.svg": "/UHON99/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/UHON99/index.html",
+    "main.f855e6bc.css.map": "/UHON99/static/css/main.f855e6bc.css.map",
+    "main.ff1d7638.js.map": "/UHON99/static/js/main.ff1d7638.js.map",
+    "453.ed3810f9.chunk.js.map": "/UHON99/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.ff1d7638.js"
+  ]
+}
