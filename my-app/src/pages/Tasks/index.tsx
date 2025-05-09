@@ -1,6 +1,5 @@
 import { lazy } from "react";
 import SlideShowBlock from "../../components/SlideShideContentBlock";
-import mountainImage from './topImage/mountain.jpg'
 import classificationTopImage from './topImage/classification.jpg'
 import dataCheckingTopImage from './topImage/fact.png';
 import factCheckignTopImage from './topImage/fkae-fact.jpg';
