@@ -1,5 +1,7 @@
 import { lazy } from "react";
 import PageNotFoundContent from "./PageNotFoundContent.json";
+import { SvgIcon } from "../../common/SvgIcon";
+import classification from "../../assets/classification.jpg"
 
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
@@ -16,6 +18,9 @@ const PageNotFound = () => {
         icon="graphs.svg"
         id="about"
       />
+  
+    <img src="/icons/classificationIcon.svg" alt="test" width="60" height="60" />
+
     </Container>
   );
 };

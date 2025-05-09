@@ -14,6 +14,7 @@ import {
   StyledRow,
   ButtonWrapper,
 } from "./styles";
+import { useNavigate } from "react-router-dom";
 
 const ContentBlock = ({
   icon,
@@ -24,13 +25,15 @@ const ContentBlock = ({
   id,
   direction,
 }: ContentBlockProps) => {
-  const scrollTo = (id: string) => {
-    const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
 
+  const navigate = useNavigate()
+
+  const onClickHandler = (value?: string) => {
+    if (value !== undefined) {
+      navigate(`/${value}`)      
+    }
+  }
+  
   return (
     <ContentSection>
       <Fade direction={direction} triggerOnce>
@@ -55,6 +58,7 @@ const ContentBlock = ({
                         item: {
                           color?: string;
                           title: string;
+                          navLink?: string;
                         },
                         id: number
                       ) => {
@@ -62,7 +66,7 @@ const ContentBlock = ({
                           <Button
                             key={id}
                             color={item.color}
-                            onClick={() => scrollTo("about")}
+                            onClick={() => onClickHandler(item.navLink)}
                           >
                             {item.title}
                           </Button>

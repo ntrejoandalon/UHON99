@@ -6,6 +6,8 @@ import { Styles } from "../styles/styles";
 import PageNotFound from "../pages/pageNotFound";
 import PageUnderDevelopment from "../pages/pageUnderDevelopment";
 import Recommendation from "../pages/Recommendation";
+import ContractWorkInfo from "../pages/ContractWork";
+import TaskPage from "../pages/Tasks";
 
 const Router = () => {
   return (
@@ -16,8 +18,8 @@ const Router = () => {
           <Route index element={<Home />}/>
           <Route path="/UHON99" element={<Home />} />
 
-          <Route path="/contract-work" element={<PageUnderDevelopment />} />
-          <Route path="/tasks" element={<PageUnderDevelopment />} />
+          <Route path="/contract-work" element={<ContractWorkInfo />} />
+          <Route path="/tasks" element={<TaskPage />} />
           <Route path="/recommendation" element={<Recommendation />} />
 
           <Route path="*" element={<PageNotFound />} />

@@ -1,0 +1,17 @@
+{
+    "title": "UHON 99 - Experience in Review",
+    "text": "Throughout the semester I have worked at DataAnnotation as a remote contract data cleaner. Here is how it went! Now complete with a personal recommendation for if this type of job is for you.",
+    "button": [
+      {
+        "title": "Is it for You?",
+        "navLink": "recommendation"
+      },
+      {
+        "title": "Explore Contract Work",
+        "color": "#fff",
+        "navLink": "contract-work"
+
+      }
+    ]
+  }
+  

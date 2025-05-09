@@ -11,10 +11,13 @@ export interface ContentBlockProps {
     | {
         title: string;
         color?: undefined;
+        navLink?: string;
       }
     | {
         title: string;
         color: string;
+        navLink?: string;
+
       }
   )[];
   id: string;

@@ -1,0 +1,42 @@
+{
+    "intro": {
+        "title": "What is Remote Contract Work?",
+        "text": "Remote contract work is an offshoot of freelancing. It's typically a short-term position and is frequent in industries like administration, tech, health care, arts, ext."
+    },
+    "logistics": {
+        "title": "Pay, Hours, and Expectations",
+        "text": "A lot of these positions expect the worker to have the tech necessary to do the work. While there are some contract positions that do not, they typically take place directly with the company and there is lot more rigidness in hours and structure. For the purpose of this site, we are talking about remote contract work that is generally done under a 'management' type company (a company selling labor for other companies). In this case, they are able to contract a swarth of workers and expect high turnover. As for pay and hours, that depends on the type of tasks completed as well as on the individual. Nearly everything is individually managed."
+    },
+    "pros": {
+        "title": "Benefits",
+        "text": "The main draw of these positions is the flexibility. Working remotely and on your own hours allows people to manage the rest of their everyday lives.",
+        "section": [
+            {
+              "title": "Flexible Scheduling",
+              "content": "You set your own schedule. You can work as much or as little as you want. This also means you are in charge of managing yourself.",
+              "icon": "notes.svg"
+            },
+            {
+              "title": "Skill-Based Requirements",
+              "content": "Some remote contract positions taste purely off skills, making it more accessible to people who may not have a traditional education.",
+              "icon": "notes.svg"
+            }
+          ]
+    },
+    "cons": {
+        "title": "Drawbacks",
+        "text": "The responsibility for work relies solely on the person. There is no management or structure, which can be a challenge for work culture, motivation, and productivity. Past that, some companies have a malicious system where people get paid per item, leading them to sometimes be paid below the minimum wage.",
+        "section": [
+            {
+              "title": "No Employer Benefits",
+              "content": "Being a contract worker automatically means the employee doesn't have the benefits present as a full-time employee. This can be a rough transition.",
+              "icon": "notes.svg"
+            },
+            {
+              "title": "Payment System",
+              "content": "Depending on the company, compensation varys by task or hour. Some companies pay per item, which can lead to underpayment.",
+              "icon": "notes.svg"
+            }
+          ]
+    }
+}
